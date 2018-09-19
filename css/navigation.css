@@ -1,0 +1,17 @@
+nav {
+  background-color: #f9f9f9;
+  color:#707070;
+  position : fixed;
+  bottom : 0;
+  width : 100%;
+
+}
+
+nav a.menu-tap {
+  text-decoration: none;
+  color:#707070;
+}
+
+nav a.menu-tap--selected{
+  color : #523e34;
+}

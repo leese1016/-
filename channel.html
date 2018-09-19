@@ -6,57 +6,55 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
   integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
   <title>채널</title>
 </head>
 <body>
   <header class="search-bar-on">
     <div class="header-top">
-      <div class="header-top_contents"></div>
+      <div class="header-top_contents">
         <span class="fas fa-signal"></span>
         <span class="telecom">SKT</span>
         <span class="fas fa-wifi"></span>
-      <div class="header-top_contents"></div>
-         <span class="오전">오전</span>
-         <span class="time"> 12:30</span>
-      <div class="header-top_contents"></div>
-        <span class="배터리">100%</span>
+    </div>
+    <div class="header-top__contents">
+         <span class="header-top__time">오전 12:30</span>
+    </div>
+    <div class="header-top__contents">
+        <span class="battery">100%</span>
         <span class="fas fa-battery-full"></span>
     </div>
-    <div class="header-middle">
-      <div class="header-middle_contents"></div>
-         <span class="channel">채널</span>
-         <span class="fas fa-cog"></span>
-
-    </div>
+  </div>
     <div class="header-bottom">
-      <div class="header-bottom_contents"></div>
+      <div class="header-bottom__contents">
+         <span class="friend">친구</span>
+         <span class="fas fa-cog"></span>
+      </div>
+    </div>
+
+    <div class="search-bar">
         <span class="fas fa-search"></span>
         <input type="text" class="search-bar" value="검색"><nl>
         <span class="fas fa-qrcode"></span>
-      <div class="header-bottom_contents"></div>
-      <div class="header-bottom_contents"></div>
     </div>
-    <div class="searchbar">
-
-    </div>
-
   </header>
-  <main class = "friend">
+  <main class="channel">
+
   </main>
 
   <nav>
    <ul class="nav_menu">
 
       <li>
-       <a href="index.html" class="Friends-tap">
-         <div class="Friend-tap_wrap">
+       <a href="index.html" class="menu-tap">
+         <div class="menu-tap_wrap">
           <span class="far fa-user"></span>
-          <span class="Friends-tap_text">친구</span>
+          <span class="menu-tap_text">친구</span>
         </div>
        </a>
     </li>
     <li>
-      <a href="chat.html" class="menu-tap menu-tap--selected">
+      <a href="chat.html" class="menu-tap">
         <div class="menu-tap_wrap">
           <span class="fas fa-comments"></span>
           <span class="menu-tap_text">채팅</span>
@@ -64,19 +62,19 @@
       </a>
     </li>
     <li>
-      <a href="channel.html" class="channel-tap">
-        <div class="channel-tap_wrap">
+      <a href="channel.html" class="menu-tap--selected">
+        <div class="menu-tap_wrap">
         <span class="far fa-newspaper"></span>
-        <span class="channel-tap_text">채널</span>
+        <span class="menu-tap_text">채널</span>
 
         </div>
       </a>
     </li>
     <li>
-      <a href="더보기.html" class="더보기-tap">
-        <div class="더보기-tap_wrap">
+      <a href="더보기.html" class="menu-tap">
+        <div class="menu-tap_wrap">
           <span class="fas fa-ellipsis-h"></span>
-            <span class="더보기-tap_text">더보기</span>
+            <span class="menu-tap_text">더보기</span>
         </div>
       </a>
     </li>

@@ -4,15 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-  integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
   <title>친구</title>
 </head>
 <body>
   <header class="search-bar-on">
     <div class="header-top">
-      <div class="header-top_contents">
+      <div class="header-top__contents">
         <span class="fas fa-signal"></span>
         <span class="telecom">SKT</span>
         <span class="fas fa-wifi"></span>
@@ -21,51 +20,108 @@
          <span class="header-top__time">오전 12:30</span>
     </div>
     <div class="header-top__contents">
-        <span class="battery">100%</span>
+        <span class="header-top__battery">100%</span>
         <span class="fas fa-battery-full"></span>
     </div>
   </div>
     <div class="header-bottom">
       <div class="header-bottom__contents">
-         <span class="edit">편집</span>
-         <span class="friend">친구</span>
+        <span>편집</span>
+      </div>
+      <div class="header-bottom__contents">
+         <span>친구</span>
+      </div>
+      <div class="header-bottom__contents">
          <span class="fas fa-cog"></span>
       </div>
     </div>
-
     <div class="search-bar">
         <span class="fas fa-search"></span>
-        <input type="text" class="search-bar" value="검색"><nl>
+        <input type="text" class="search-bar" value="검색">
         <span class="fas fa-qrcode"></span>
     </div>
   </header>
   <main class = "friend">
-    <div class="my__profile">
+    <div class="my__profile-section">
       <span class = "user__profile-text">
         내 프로필
       </span>
       <a href="#" class="user__profile-link">
-      <div class="user__profile-avatar">
-        <img class="user__profile-avatar" src="./images/user.png" alt="">
-      </div>
-      <div class="user__profile-name">
-        이승은
-      </div>
-
-      <div class="user__text-message">
-        <span class="text-message">
-        예ㅖㅖㅖㅖ
-        </span>
-      </a>
+          <div class="user__profile-avatar">
+            <img class="user__profile-avatar" src="./images/user.jpg" alt="">
+              <div class="user__profile-name">
+                이승은
+              </div>
+          </div>
+        <div class="user__text-message">
+          <span class="text-message">
+          예ㅖㅖㅖㅖ
+          </span>
+        </div>
+    </a>
     </div>
   <div class="friends-section">
     <span class="user__profile-text">
+      친구 8
     </span>
     <ul class="friends-list">
-      <li><a href="" class="user__profile-link">
+      <li>
+          <a href="" class="user__profile-link">
+          <div class="user__profile-avatar">
+            <img class="user__profile-avatar" src="./images/user.jpg" alt="">
+            <div class="user__profile-name">
+              권나미남희
+            </div>
+          </div>
+          <div class="user__text-message">
+            <span class="text-message">
+              10/26</span>
+            </div>
+        </a>
+    </li>
+      <li>
+        <a href="" class="user__profile-link">
         <div class="user__profile-avatar">
-
-          <img class="user__profile-avatar" src="./images/user.png" alt="">
+          <img class="user__profile-avatar" src="./images/user.jpg" alt="">
+          <div class="user__profile-name">
+            손지혁
+          </div>
+        </div>
+        <div class="user__text-message">
+          <span class="text-message">
+            연어먹고싶다</span>
+        </div>
+      </a></li>
+      <li>
+        <a href="" class="user__profile-link">
+        <div class="user__profile-avatar">
+          <img class="user__profile-avatar" src="./images/user.jpg" alt="">
+          <div class="user__profile-name">
+            이가옹가영
+          </div>
+        </div>
+        <div class="user__text-message">
+          <span class="text-message">
+            나=2018</span>
+        </div>
+      </a></li>
+      <li>
+        <a href="" class="user__profile-link">
+        <div class="user__profile-avatar">
+          <img class="user__profile-avatar" src="./images/user.jpg" alt="">
+          <div class="user__profile-name">
+            이수빈
+          </div>
+        </div>
+        <div class="user__text-message">
+          <span class="text-message">
+            에이블블로그포스팅</span>
+        </div>
+      </a></li>
+      <li>
+        <a href="" class="user__profile-link">
+        <div class="user__profile-avatar">
+          <img class="user__profile-avatar" src="./images/user.jpg" alt="">
           <div class="user__profile-name">
             이승연
           </div>
@@ -75,13 +131,51 @@
             종강종강종강</span>
         </div>
       </a></li>
+      <li>
+        <a href="" class="user__profile-link">
+        <div class="user__profile-avatar">
+          <img class="user__profile-avatar" src="./images/user.jpg" alt="">
+          <div class="user__profile-name">
+            이진영진영
+          </div>
+        </div>
+        <div class="user__text-message">
+          <span class="text-message">
+            여행 중</span>
+        </div>
+      </a></li>
+      <li>
+        <a href="" class="user__profile-link">
+        <div class="user__profile-avatar">
+          <img class="user__profile-avatar" src="./images/user.jpg" alt="">
+          <div class="user__profile-name">
+            인형가튼 인영쓰
+          </div>
+        </div>
+        <div class="user__text-message">
+          <span class="text-message">
+            .</span>
+        </div>
+      </a></li>
+      <li>
+        <a href="" class="user__profile-link">
+        <div class="user__profile-avatar">
+          <img class="user__profile-avatar" src="./images/user.jpg" alt="">
+          <div class="user__profile-name">
+            지완이
+          </div>
+        </div>
+        <div class="user__text-message">
+          <span class="text-message">
+            카톡X</span>
+        </div>
+      </a></li>
   </main>
 
   <nav>
    <ul class="nav_menu">
-
       <li>
-       <a href="index.html" class="menu-tap--selected">
+       <a href="index.html" class="menu-tap menu-tap--selected">
          <div class="menu-tap_wrap">
           <span class="far fa-user"></span>
           <span class="menu-tap_text">친구</span>
@@ -98,11 +192,10 @@
     </li>
     <li>
       <a href="channel.html" class="menu-tap">
-        <div class="menu-tap_wrap">
+      <div class="menu-tap_wrap">
         <span class="far fa-newspaper"></span>
         <span class="menu-tap_text">채널</span>
-
-        </div>
+      </div>
       </a>
     </li>
     <li>
@@ -113,6 +206,7 @@
         </div>
       </a>
     </li>
-
+  </ul>
+</nav>
 </body>
 </html>

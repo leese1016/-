@@ -12,7 +12,7 @@
 <body>
   <header class="search-bar-on">
     <div class="header-top">
-      <div class="header-top_contents">
+      <div class="header-top__contents">
         <span class="fas fa-signal"></span>
         <span class="telecom">SKT</span>
         <span class="fas fa-wifi"></span>
@@ -21,26 +21,91 @@
          <span class="header-top__time">오전 12:30</span>
     </div>
     <div class="header-top__contents">
-        <span class="battery">100%</span>
+        <span class="header-top__battery">100%</span>
         <span class="fas fa-battery-full"></span>
     </div>
   </div>
     <div class="header-bottom">
       <div class="header-bottom__contents">
-         <span class="edit">편집</span>
-         <span class="friend">친구</span>
+        <span>편집</span>
+      </div>
+      <div class="header-bottom__contents">
+         <span>친구</span>
+      </div>
+      <div class="header-bottom__contents">
          <span class="fas fa-cog"></span>
       </div>
     </div>
-
     <div class="search-bar">
         <span class="fas fa-search"></span>
-        <input type="text" class="search-bar" value="검색"><nl>
+        <input type="text" class="search-bar" value="검색">
         <span class="fas fa-qrcode"></span>
     </div>
   </header>
   <main class = "chat">
-
+      <ul class="chat-list">
+        <li class="chat-room">
+            <a href="#" class="chat-1">
+            <div class="chat-contents">
+              <div class="chat-avatar">
+               <img class="user__profile-avatar" src="./images/user.jpg" alt="">
+             </div>
+                <div class="text-target">
+                  <div class="chat-tar-name">
+                   <span>권나미남희</span>
+                  </div>
+                  <div class="chat-pretext">
+                    <span>ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</span>
+                </div>
+              </div>
+            </div>
+            <div class="user__chat-time">
+              <div class="text-time">
+                오후 11:59</div>
+              </div>
+          </a>
+      </li>
+      <li class="chat-room">
+          <a href="#" class="chat-1">
+          <div class="chat-contents">
+            <div class="chat-avatar">
+             <img class="user__profile-avatar" src="./images/user.jpg" alt="">
+           </div>
+              <div class="text-target">
+                <div class="chat-tar-name">
+                 <span>손지혁</span>
+                </div>
+                <div class="chat-pretext">
+                  <span>ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</span>
+              </div>
+            </div>
+          </div>
+          <div class="user__chat-time">
+            <div class="text-time">
+              오후 11:59</div>
+            </div>
+        </a>
+    </li><li class="chat-room">
+        <a href="#" class="chat-1">
+        <div class="chat-contents">
+          <div class="chat-avatar">
+           <img class="user__profile-avatar" src="./images/user.jpg" alt="">
+         </div>
+            <div class="text-target">
+              <div class="chat-tar-name">
+               <span>이가옹가영</span>
+              </div>
+              <div class="chat-pretext">
+                <span>ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ</span>
+            </div>
+          </div>
+        </div>
+        <div class="user__chat-time">
+          <div class="text-time">
+            오후 11:59</div>
+          </div>
+      </a>
+  </li>
   </main>
 
   <nav>
@@ -55,7 +120,7 @@
        </a>
     </li>
     <li>
-      <a href="chat.html" class="menu-tap--selected">
+      <a href="chat.html" class="menu-tap menu-tap--selected">
         <div class="menu-tap_wrap">
           <span class="fas fa-comments"></span>
           <span class="menu-tap_text">채팅</span>
@@ -79,6 +144,6 @@
         </div>
       </a>
     </li>
-
+</nav>
 </body>
 </html>

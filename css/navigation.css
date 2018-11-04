@@ -15,6 +15,7 @@ nav a.menu-tap {
 
 nav a.menu-tap--selected{
   color : #523e34;
+  text-decoration: none;
 }
 
 .menu-tap{

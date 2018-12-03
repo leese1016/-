@@ -20,3 +20,43 @@ img.user__profile-avatar{
   background-color: #e2dede;
   padding: 5px;
 }
+.user__profile-name{
+  font-weight: bold;
+}
+
+main.friend{
+ padding-top: 20px;
+ animation: 0.7s identifier ease-in-out;
+}
+.my__profile-section{
+  padding-bottom: 20px;
+}
+
+.friends-list li{
+  padding-top: 10px;
+}
+@keyframes identifier {
+  from{
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to{
+    opacity: 1;
+    transform: none;
+  }
+}
+.user__profile-avatar:active img{
+  animation: 1s identifier2 ease-in-out;
+}
+
+@keyframes identifier2 {
+  0%{
+    transform: rotateY(0deg);
+  }
+  50%{
+    transform: rotateY(360deg);
+  }
+  100%{
+    transform:none;
+  }
+}

@@ -4,7 +4,7 @@ header.search-bar-on{
   top:0;
   background-color: #523e34;
   color: #ffffff;
-
+  z-index: 1;/*header를 젤 앞으로 가져와서 스크롤을 내려도 문제 없게*/
 }
 .header-bottom {
   display: flex;

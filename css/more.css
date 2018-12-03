@@ -1,0 +1,63 @@
+main.more{
+ animation: 0.7s identifier ease-in-out;
+}
+
+img.user__profile-avatar_more{
+  width : 50px;
+  height: 50px;
+  border: 3px;
+  border-radius: 25px;
+}
+
+div.user_more_two{
+  display: flex;
+  align-items: center;
+}
+div.user__profile-avatar_more{
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 15px;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+span.my{
+  border: 1px solid;
+  border-color: #c8c8c8;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+.user__profile-name_more{
+ padding-left: 10px;
+ font-weight: bold;
+}
+.ad{height: 200px;}
+div.kakaopay{
+  margin-top: 30px;
+  display:flex;
+  justify-content: space-around;
+  border: 1px solid;
+  border-color: #e6e5e4;
+  border-radius: 5px;
+  padding: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #f5f5f5;
+}
+.line{
+  padding: 0px 20px;
+}
+.various_element{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 20px;
+}
+.various_text{
+  padding: 10px;
+}
+.various{
+    display: flex;
+    justify-content: space-between;
+}

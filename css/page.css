@@ -1,0 +1,14 @@
+.search-bar-off{background-color: #b2c7d9}
+.chat-messages{background-color: #b2c7d9}
+.user__profile-link{
+  color: black;
+  text-decoration: none;
+  display: flex;
+}
+.user__chat-avatar{
+  display: flex;
+
+}
+.chat-message{
+  background-color: #edf3f8;
+}

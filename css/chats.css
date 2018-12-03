@@ -4,12 +4,46 @@ img.user__profile-avatar{
   border: 3px;
   border-radius: 50px;
 }
+main.chat{
+ animation: 0.7s identifier ease-in-out;
+}
 
+.chat-room{
+  padding-top: 20px;
+}
+div.chat-contents_hidden{
+  visibility: hidden;
+}
+div.yellow_button{
+    width : 80px;
+    height: 80px;
+    border: 3px;
+    border-radius: 50%;
+    background-color: #ffe500;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+div.circle{
+  position: fixed;
+  right: 20px;
+  bottom: 60px;
+}
+div.yellow_button span{
+  transition: .1s transform linear;
+}
+div.yellow_button:active span{
+  transform: rotate(135deg);
+}
 .chat-1{
   color: black;
   text-decoration: none;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 
 }
 .chat-contents{
